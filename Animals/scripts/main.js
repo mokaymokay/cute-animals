@@ -12,15 +12,15 @@ let div = $("<div></div>").addClass("cute-container");
 
 for (let i = 6; i > 0; i--) {
   let cute = $("<div></div>").addClass("cute");
-  $('body').append(cute);
+  div.append(cute);
 }
 
 // 4
 $('p:nth-child(2)').after(div);
 
 // 5
-let unicornColors = ['#facdd5', '#fffcbc', '#d9ffe3', '#ccedfd', '#e3c3ff'];
-let randomColor = unicornColors[Math.floor(Math.random()*unicornColors.length)]
-$('#pic-strip').mouseover(function(e) {
+$('#pic-strip').hover ( function(e) {
+  let unicornColors = ['#facdd5', '#fffcbc', '#d9ffe3', '#ccedfd', '#e3c3ff'];
+  let randomColor = unicornColors[Math.floor(Math.random() * unicornColors.length)];
   $(this).css("background-color", randomColor);
 })
