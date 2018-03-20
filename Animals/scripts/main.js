@@ -4,7 +4,7 @@ $('p:nth-child(2)').addClass("sub-head");
 
 // 2
 $('#logo').click( function(e) {
-  $(this).css("background-image", "url('../img/logos/puppy.png')")
+  $(this).css("background-image", "url('img/logos/puppy.png')")
 })
 
 // 3
@@ -16,3 +16,4 @@ for (let i = 6; i > 0; i--) {
 }
 
 // 4
+$('p:nth-child(2)').after(div);
