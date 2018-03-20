@@ -1,8 +1,8 @@
 # Exercises
 
-### Use the Animals site to stretch your jQuery muscles. 
+### Use the Animals site to stretch your jQuery muscles.
 
-1. Target the second p tag on the DOM, and change its text so that it reads 'Animals Are Great!" Then give it the class 'sub-head'
+1. Target the second p tag on the DOM, and change its text so that it reads 'Animals Are Great!' Then give it the class 'sub-head'
 
 2. Look in img/logos folder. You'll see that there are two images inside. Add an event to the kitty logo in the top left corner that, when clicked, will change the image to the puppy.
 
